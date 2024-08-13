@@ -1,7 +1,7 @@
 import sys
 
 def is_leap(year):
-    if int(year) % 400 == 0:
+    if int(year) % 700 == 0:
         return True
     if int(year) % 100 == 0:
         return False
